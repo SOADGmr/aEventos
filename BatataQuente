@@ -1,0 +1,34 @@
+# Batata Quente
+
+Este evento consiste em um "Pega-Pega", um dos players iniciará com a batata quente, e terá ``15 Segundos``(configurável) para passar a batata para outro jogador, caso ele consiga, o cronometro se reiniciará e o novo jogador terá mais ``15 Segundos`` para passar a batata, caso nao consiga passar ele perde o evento. A batata irá automáticamente para outro jogador aleatório, e assim segue o evento até que sobre apenas 1 Jogador, o vencedor.
+
+## Configurando:
+
+Para configurar um evento basta executar o comando ``/evento setup <NomeDoArquivoDoEvento>``, (Por padrão o nome deste arquivo é ``batataquente``). Após executado o comando, você entrará no modo de configuração, no chat aparecerá uma lista com os comandos que você pode executar, nós iremos configurar apenas ``4`` destes, as outras configurações mostradas nao se aplicam a este evento.
+
+### Entrada
+
+Define para onde os jogadores irão quando o evento começar.
+
+``/evento setup entrada`` (A posição será definida onde você está ao executar o comando)
+
+### Espera
+
+Define onde o jogador ficará apos executar ``/evento`` enquando o evento nao começar.
+
+``/evento setup espera`` (A posição será definida onde você está ao executar o comando)
+
+### Saída
+
+Define para onde o jogador irá quando sair do evento.
+
+``/evento setup saida`` (A posição será definida onde você está ao executar o comando)
+
+### Camarote
+
+Define para onde o jogador irá ao executar o comando ``/evento assistir``.
+
+``/evento setup camarote`` (A posição será definida onde você está ao executar o comando)
+
+
+Nossa configuração já está pronta, agora para sair do Modo de Configuração basta executar o comando ``/evento setup sair``. 
